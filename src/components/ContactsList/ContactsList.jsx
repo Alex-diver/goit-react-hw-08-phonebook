@@ -4,13 +4,7 @@ import {
   deleteContact,
   fetchContacts,
 } from 'redux/contacts/operationsContacts';
-import {
-  ItemStyled,
-  NameStyled,
-  NumberStyled,
-  DeleteButton,
-  ListStyled,
-} from './ContactsList.styled';
+import { ItemStyled, DeleteButton, ListStyled } from './ContactsList.styled';
 import { useEffect } from 'react';
 
 export const ContactList = () => {

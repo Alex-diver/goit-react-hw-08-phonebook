@@ -16,16 +16,7 @@ export const ItemStyled = styled.li`
   color: white;
   margin: 3px 0 0 auto;
 `;
-export const NameStyled = styled.p`
-  color: white;
-  font-size: 16px;
-  font-weight: 400;
-`;
-export const NumberStyled = styled.p`
-  color: white;
-  font-size: 16px;
-  font-weight: 400;
-`;
+
 export const DeleteButton = styled.button`
   width: 75px;
   color: gray;
