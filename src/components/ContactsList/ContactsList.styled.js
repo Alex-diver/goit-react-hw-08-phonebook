@@ -3,8 +3,8 @@ import { Avatar } from '@chakra-ui/react';
 
 export const AvatarStyled = styled(Avatar)`
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   background-color: green;
 `;
 
