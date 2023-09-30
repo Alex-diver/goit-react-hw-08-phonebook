@@ -1,8 +1,8 @@
 import { styled } from 'styled-components';
 
 export const FormStyled = styled.form`
-  margin-bottom: 30px;
   display: flex;
+  margin-bottom: 30px;
   flex-direction: column;
   align-items: center;
   padding: 20px;
