@@ -1,4 +1,12 @@
 import styled from 'styled-components';
+import { Avatar } from '@chakra-ui/react';
+
+export const AvatarStyled = styled(Avatar)`
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  background-color: green;
+`;
 
 export const ListStyled = styled.ul`
   display: flex;
@@ -14,7 +22,6 @@ export const ItemStyled = styled.li`
   align-items: center;
   gap: 15px;
   color: white;
-  margin: 3px 0 0 auto;
 `;
 
 export const DeleteButton = styled.button`

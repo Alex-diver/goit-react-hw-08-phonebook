@@ -4,7 +4,12 @@ import {
   deleteContact,
   fetchContacts,
 } from 'redux/contacts/operationsContacts';
-import { ItemStyled, DeleteButton, ListStyled } from './ContactsList.styled';
+import {
+  ItemStyled,
+  DeleteButton,
+  ListStyled,
+  AvatarStyled,
+} from './ContactsList.styled';
 import { useEffect } from 'react';
 
 export const ContactList = () => {
@@ -24,6 +29,7 @@ export const ContactList = () => {
     <ListStyled>
       {filteredContacts.map(({ id, name, number }) => (
         <ItemStyled key={id}>
+          <AvatarStyled name={name} />
           {name}: {number}
           <DeleteButton onClick={() => dispatch(deleteContact(id))}>
             Delete
