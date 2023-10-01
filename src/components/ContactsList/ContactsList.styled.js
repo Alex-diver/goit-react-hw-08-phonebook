@@ -40,3 +40,6 @@ export const DeleteButton = styled.button`
     color: black;
   }
 `;
+export const NoContacts = styled.p`
+  color: white;
+`;
