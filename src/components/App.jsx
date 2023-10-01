@@ -25,7 +25,7 @@ export const App = () => {
   }, [dispatch]);
 
   return isRefreshing ? (
-    <p>Refreshing user...</p>
+    <b>Refreshing user...</b>
   ) : (
     <ConteinerStyled>
       <ToastContainer />
@@ -36,7 +36,7 @@ export const App = () => {
             path="/register"
             element={
               <RestrictedRoute
-                redirectTo="/login"
+                redirectTo="/contacts"
                 component={<RegisterPage />}
               />
             }
